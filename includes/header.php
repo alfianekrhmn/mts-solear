@@ -22,19 +22,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <header class="bg-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-1 flex justify-between items-center">
             <div class="flex items-center">
-                <a href="/mtssolear/index.php" class="flex items-center">
+                <a href="index.php" class="flex items-center">
                     <img src="admin/assets/logo-sekolah.png" alt="Logo Sekolah" class="h-20 w-auto mr-2" onerror="this.src='https://via.placeholder.com/100x40?text=Logo'">
                 </a>
             </div>
             <div class="hidden md:flex items-center space-x-6">
-                <a href="/mtssolear/" class="<?php echo ($current_page == 'index.php') ? 'active' : 'hover:text-green-700'; ?>">Beranda</a>
-                <a href="/mtssolear/profil.php" class="<?php echo ($current_page == 'profil.php') ? 'active' : 'hover:text-green-700'; ?>">Profil</a>
-                <a href="/mtssolear/berita.php" class="<?php echo ($current_page == 'berita.php') ? 'active' : 'hover:text-green-700'; ?>">Berita</a>
-                <a href="/mtssolear/galeri.php" class="<?php echo ($current_page == 'galeri.php') ? 'active' : 'hover:text-green-700'; ?>">Galeri</a>
-                <a href="/mtssolear/ppdb.php" class="<?php echo ($current_page == 'ppdb.php') ? 'active' : 'hover:text-green-700'; ?>">Pendaftaran PPDB</a>
-                <a href="/mtssolear/lapor.php" class="<?php echo ($current_page == 'lapor.php') ? 'active' : 'hover:text-green-700'; ?>">Lapor Kasus</a>
-                <a href="/mtssolear/kontak.php" class="<?php echo ($current_page == 'kontak.php') ? 'active' : 'hover:text-green-700'; ?>">Kontak</a>
-                <a href="/mtssolear/ekstrakurikuler.php" class="<?php echo ($current_page == 'ekstrakurikuler.php') ? 'active' : 'hover:text-green-700'; ?>">Ekstrakurikuler</a>
+               <a href="index.php" class="block <?php echo ($current_page == 'index.php') ? 'active' : 'hover:text-green-700'; ?>">Beranda</a>
+            <a href="profil.php" class="block <?php echo ($current_page == 'profil.php') ? 'active' : 'hover:text-green-700'; ?>">Profil</a>
+            <a href="berita.php" class="block <?php echo ($current_page == 'berita.php') ? 'active' : 'hover:text-green-700'; ?>">Berita</a>
+            <a href="galeri.php" class="block <?php echo ($current_page == 'galeri.php') ? 'active' : 'hover:text-green-700'; ?>">Galeri</a>
+            <a href="ppdb.php" class="block <?php echo ($current_page == 'ppdb.php') ? 'active' : 'hover:text-green-700'; ?>">Pendaftaran PPDB</a>
+            <a href="lapor.php" class="block <?php echo ($current_page == 'lapor.php') ? 'active' : 'hover:text-green-700'; ?>">Lapor Kasus</a>
+            <a href="kontak.php" class="block <?php echo ($current_page == 'kontak.php') ? 'active' : 'hover:text-green-700'; ?>">Kontak</a>
+            <a href="ekstrakurikuler.php" class="block <?php echo ($current_page == 'ekstrakurikuler.php') ? 'active' : 'hover:text-green-700'; ?>">Ekstrakurikuler</a>
             </div>
             <!-- Mobile Menu Button -->
             <button id="mobile-menu-button" class="md:hidden">
@@ -43,14 +43,14 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </nav>
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
-            <a href="/mtssolear/" class="block <?php echo ($current_page == 'index.php') ? 'active' : 'hover:text-green-700'; ?>">Beranda</a>
-            <a href="/mtssolear/profil.php" class="block <?php echo ($current_page == 'profil.php') ? 'active' : 'hover:text-green-700'; ?>">Profil</a>
-            <a href="/mtssolear/berita.php" class="block <?php echo ($current_page == 'berita.php') ? 'active' : 'hover:text-green-700'; ?>">Berita</a>
-            <a href="/mtssolear/galeri.php" class="block <?php echo ($current_page == 'galeri.php') ? 'active' : 'hover:text-green-700'; ?>">Galeri</a>
-            <a href="/mtssolear/ppdb.php" class="block <?php echo ($current_page == 'ppdb.php') ? 'active' : 'hover:text-green-700'; ?>">Pendaftaran PPDB</a>
-            <a href="/mtssolear/lapor.php" class="block <?php echo ($current_page == 'lapor.php') ? 'active' : 'hover:text-green-700'; ?>">Lapor Kasus</a>
-            <a href="/mtssolear/kontak.php" class="block <?php echo ($current_page == 'kontak.php') ? 'active' : 'hover:text-green-700'; ?>">Kontak</a>
-            <a href="/mtssolear/ekstrakurikuler.php" class="block <?php echo ($current_page == 'ekstrakurikuler.php') ? 'active' : 'hover:text-green-700'; ?>">Ekstrakurikuler</a>
+            <a href="index.php" class="block <?php echo ($current_page == 'index.php') ? 'active' : 'hover:text-green-700'; ?>">Beranda</a>
+            <a href="profil.php" class="block <?php echo ($current_page == 'profil.php') ? 'active' : 'hover:text-green-700'; ?>">Profil</a>
+            <a href="berita.php" class="block <?php echo ($current_page == 'berita.php') ? 'active' : 'hover:text-green-700'; ?>">Berita</a>
+            <a href="galeri.php" class="block <?php echo ($current_page == 'galeri.php') ? 'active' : 'hover:text-green-700'; ?>">Galeri</a>
+            <a href="ppdb.php" class="block <?php echo ($current_page == 'ppdb.php') ? 'active' : 'hover:text-green-700'; ?>">Pendaftaran PPDB</a>
+            <a href="lapor.php" class="block <?php echo ($current_page == 'lapor.php') ? 'active' : 'hover:text-green-700'; ?>">Lapor Kasus</a>
+            <a href="kontak.php" class="block <?php echo ($current_page == 'kontak.php') ? 'active' : 'hover:text-green-700'; ?>">Kontak</a>
+            <a href="ekstrakurikuler.php" class="block <?php echo ($current_page == 'ekstrakurikuler.php') ? 'active' : 'hover:text-green-700'; ?>">Ekstrakurikuler</a>
         </div>
     </header>
 
